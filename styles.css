@@ -1,0 +1,109 @@
+body{
+  font-weight:400
+}
+h1{
+  color:#66FCF1;
+  font-size:300%;
+}
+header{
+  background: #FFFFFF;
+}
+body{
+  font-family: sans-serif;
+  margin: 25px;
+  background-color: #1f2833;
+}
+a:link{
+  text-decoration: none
+}
+
+ul.nobullets{
+  list-style-type: none
+}
+nav {
+  float:right;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 45px;
+  position: relative;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #1f2833;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  top: 0;
+  width: 0%;
+  background-color: #000;
+  position: absolute;
+
+  transition: all ease-in-out 200ms;
+}
+
+video{
+  display: block;
+  margin: 0 auto;
+}
+
+nav a:hover{
+  color: #000
+}
+
+nav a:hover::before{
+  width:100%;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+  padding: 10px 0;
+}
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #1f2833;
+  color: white;
+  float: right;
+}
+
+.coming_soon{
+  font-family: 'Handlee', cursive;
+  font-size: 35pt;
+  align: center;
+  color: #FFFFFF
+}
